@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardo Links</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #6e8efb, #a777e3);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .container {
+            max-width: 600px;
+            width: 90%;
+            margin: 2rem auto;
+            text-align: center;
+        }
+
+        .profile {
+            margin-bottom: 2rem;
+        }
+
+        .profile img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 3px solid white;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            object-fit: cover;
+        }
+
+        .profile h1 {
+            color: white;
+            margin: 1rem 0;
+            font-size: 1.8rem;
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .link-card {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 1rem;
+            border-radius: 10px;
+            text-decoration: none;
+            color: #333;
+            transition: transform 0.2s, box-shadow 0.2s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .link-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+
+        .link-card i {
+            margin-right: 10px;
+            font-size: 1.2rem;
+        }
+
+        .social-links {
+            margin-top: 2rem;
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+        }
+
+        .social-icon {
+            color: white;
+            font-size: 1.5rem;
+            transition: transform 0.2s;
+        }
+
+        .social-icon:hover {
+            transform: scale(1.2);
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="profile">
+            <img src="https://yt3.googleusercontent.com/snh6ypQ_3laR5vLVpAN_4KpaQ_nFmcio5b6E5xd55Mz8NAOUAGy_cPRFkDqjCS_-agR0Yz7V0g=s160-c-k-c0x00ffffff-no-rj" alt="Cardo Profile Picture">
+            <h1>Cardo</h1>
+        </div>
+
+        <div class="links">
+            <!-- Link Donasi -->
+            <a href="https://sociabuzz.com/cardoganz/tribe" class="link-card" target="_blank">
+                <i class="fas fa-heart"></i>
+                Donasi
+            </a>
+
+            <!-- Link Discord -->
+            <a href="https://discord.gg/UKD8TmV3Tu" class="link-card" target="_blank">
+                <i class="fab fa-discord"></i>
+                Join Discord Server
+            </a>
+
+            <!-- Link YouTube -->
+            <a href="https://youtube.com/@cardoo_ganz?si=OytXK3SpHMgNPc1f" class="link-card" target="_blank">
+                <i class="fab fa-youtube"></i>
+                YouTube Channel
+            </a>
+
+            <!-- Link Instagram -->
+            <a href="https://www.instagram.com/crdhoo/profilecard/?igsh=ZzlqN2xyeHpjaTYy" class="link-card" target="_blank">
+                <i class="fab fa-instagram"></i>
+                Instagram
+            </a>
+        </div>
+
+        <div class="social-links">
+            <a href="https://youtube.com/@cardoo_ganz?si=OytXK3SpHMgNPc1f" class="social-icon" target="_blank">
+                <i class="fab fa-youtube"></i>
+            </a>
+            <a href="https://www.instagram.com/crdhoo/profilecard/?igsh=ZzlqN2xyeHpjaTYy" class="social-icon" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://discord.gg/UKD8TmV3Tu" class="social-icon" target="_blank">
+                <i class="fab fa-discord"></i>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
